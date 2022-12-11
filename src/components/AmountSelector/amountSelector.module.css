@@ -1,0 +1,46 @@
+.amountSelector {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  /* border: 1px solid var(--complement-color); */
+  justify-content: center;
+}
+
+.amountSelector > input {
+  border: none !important;
+  width: 1.5rem;
+  text-align: center;
+}
+
+.amountSelector > input:focus {
+  outline: none;
+}
+
+.amountSelector > svg {
+  font-size: 1rem !important;
+}
+
+.amountSelector > svg:first-child {
+  padding-left: 0.3rem;
+}
+
+.amountSelector > svg:last-child {
+  padding-right: 0.3rem;
+}
+
+.amountSelector > svg:first-child:hover {
+  fill: var(--red);
+}
+
+.amountSelector > svg:last-child:hover {
+  fill: var(--green);
+}
+
+.amountSelector > svg:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+.extraSize > svg {
+  font-size: 2rem !important;
+}

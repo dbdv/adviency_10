@@ -1,0 +1,99 @@
+.list-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  min-width: 600px;
+}
+
+.list-section h3 {
+  font-style: italic;
+}
+
+.list-section .subtitle {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.list-section .subtitle .modalConfirm {
+  position: absolute;
+  right: 0rem;
+  top: -3.7rem;
+  background: white;
+  padding: 1.3rem;
+  border: 1px solid var(--red);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.list-section .subtitle .modalConfirm div {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.list-section .subtitle .modalConfirm span {
+  font-size: 1.3rem;
+}
+
+.list-section .subtitle .modalConfirm div button {
+  padding: 0.2rem 1rem;
+  color: white;
+}
+
+.list-section .subtitle .modalConfirm div button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.list-section .subtitle .modalConfirm div button:first-child {
+  background: var(--red);
+  border: none;
+  border-radius: 3px;
+}
+
+.list-section .subtitle .modalConfirm div button:last-child {
+  background: var(--complement-color);
+  border: none;
+  border-radius: 3px;
+}
+
+.list-section .subtitle .btnClearList {
+  padding: 0.2rem;
+  width: 10rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 7px;
+  background: white;
+  font-size: 0.9rem;
+}
+
+.list-section .subtitle .btnClearList:hover {
+  background: var(--red);
+  color: white;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.list-section ul {
+  list-style-type: none;
+  min-width: 20rem;
+}
+
+.list-section ul div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  position: relative;
+  justify-content: space-between;
+}
+
+.no-gifts {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--primary-color);
+}
